@@ -9,8 +9,7 @@ docker network create aitech
 
 docker run -p 5432:5432 --name computex -e POSTGRES_PASSWORD=12345 -e POSTGRES_DB=computex -e POSTGRES_USER=admin -d --network aitech postgres
 
-
-GO TO GITHUB AND GET THE  REPO FOR THE FULL-STACK
+**GO TO GITHUB AND GET THE  REPO FOR THE FULL-STACK**
 git clone https://github.com/soundn/Containerisation-React-Django-App
 cd Containerisation-React-Django-App/
 
